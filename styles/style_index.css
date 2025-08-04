@@ -1,0 +1,114 @@
+    /* Fonts */
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+header {
+  font-size: 300rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 4px;
+    
+}
+
+button.Google {
+    background-color: #ffffff;
+    color: rgb(68, 67, 67);
+    border: 1px solid #cbc8c8;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.Facebook {
+    background-color: #ffffff;
+    color: rgb(68, 67, 67);
+    border: 1px solid #cbc8c8;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.Google img,
+button.Facebook img {
+    width: 18px;
+    height: 18px;
+    
+}
+
+.social-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
